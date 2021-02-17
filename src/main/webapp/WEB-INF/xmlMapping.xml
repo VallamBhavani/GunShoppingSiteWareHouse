@@ -1,0 +1,29 @@
+<mapping>
+
+
+    <class name="com.gunShoppingSite.model.Gun">
+        <map-to xml="guns"></map-to>
+
+        <field name="id" type="integer">
+            <bind-xml name="Id"  node="element"/>
+        </field>
+
+        <field name="gunName" type="string">
+            <bind-xml node="element"/>
+        </field>
+        <field name="description" type="string">
+            <bind-xml node="element"/>
+        </field>
+        <field name="scope" type="string">
+            <bind-xml node="element"/>
+        </field>
+
+        <field name="priceInr" type="float">
+            <bind-xml node="element"/>
+        </field>
+        <field name="priceUsd" type="float">
+            <bind-xml node="element"/>
+        </field>
+
+    </class>
+</mapping>
